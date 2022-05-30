@@ -1,0 +1,24 @@
+body {
+  background-color: lightpink;
+  color: darkblue;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#welcome-section {
+  text-align: center;
+  margin-bottom: 40em;
+  height: 100%;
+  min-height: 100px;
+  margin-top: 30em;
+}
+
+@media screen and (width: 600px) {
+  body {
+    color: white;
+  }
+}
